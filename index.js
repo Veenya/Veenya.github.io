@@ -18,4 +18,5 @@ const button = document.getElementById('btn');
 button.addEventListener('click', function handleClick() {
   var x = (randomIntFromInterval(0, (adjective.length -1)) + (randomIntFromInterval(0, (noun.length -1));
   document.getElementById("demo").innerHTML = x;
+  console.log("test");
 });
